@@ -49,6 +49,5 @@ public class XMLParser {
                 executor.execute(parser);
             }
         }while(true);
-    }
-    
+    }    
 }
