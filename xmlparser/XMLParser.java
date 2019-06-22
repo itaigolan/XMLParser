@@ -23,7 +23,8 @@ public class XMLParser {
         
         //Connect to database
         try {
-            connection = DriverManager.getConnection(connectionUrl,"root",/*password*/);
+            //Enter correct connection information
+            connection = DriverManager.getConnection(connectionUrl,/*username*/,/*password*/);
             System.out.println("Connected");
         }
         catch (SQLException e) {
